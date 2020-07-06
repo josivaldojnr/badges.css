@@ -25,5 +25,8 @@
 		"dist/*.css",
 		"!docs/"
 	],
-	"license": "MIT"
+	"license": "MIT",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	}
 }
