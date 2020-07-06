@@ -4,6 +4,7 @@
 	"description": "A small CSS module for building simple badges.",
 	"homepage": "https://josivaldojnr.github.io/badges.css/",
 	"author": "Josivaldo Junior <josivaldo_jr@outlook.com>",
+	"main": "dist/badges.css",
 	"keywords": [
 		"badges",
 		"badge",
