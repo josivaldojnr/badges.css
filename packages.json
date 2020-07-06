@@ -1,0 +1,28 @@
+{
+	"name": "badges.css",
+	"version": "0.1.0",
+	"description": "A small CSS module for building simple badges.",
+	"homepage": "https://josivaldojnr.github.io/badges.css/",
+	"author": "Josivaldo Junior <josivaldo_jr@outlook.com>",
+	"keywords": [
+		"badges",
+		"badge",
+		"css",
+		"module"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/josivaldojnr/badges.css.git"
+	},
+	"bugs": {
+		"url": "https://github.com/josivaldojnr/badges.css/issues",
+		"email": "josivaldo_jr@outlook.com"
+	},
+	"files": [
+		"LICENSE",
+		"README.md",
+		"dist/*.css",
+		"!docs/"
+	],
+	"license": "MIT"
+}
