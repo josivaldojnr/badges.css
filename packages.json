@@ -5,6 +5,7 @@
 	"homepage": "https://josivaldojnr.github.io/badges.css/",
 	"author": "Josivaldo Junior <josivaldo_jr@outlook.com>",
 	"main": "dist/badges.css",
+	"style": "dist/badges.css",
 	"keywords": [
 		"badges",
 		"badge",
