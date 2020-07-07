@@ -14,13 +14,14 @@ jobs:
           node-version: 12
           registry-url: 'https://registry.npmjs.org/'
       - run: npm install
+      - run: npm config set '//npm.pkg.github.com/:_authToken' "${{secrets.PERSONAL_ACCESS_TOKEN}}"
       - run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       - uses: actions/setup-node@v1
         with:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@josivaldojnr'
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
