@@ -13,6 +13,7 @@ jobs:
         with:
           node-version: 12
           registry-url: 'https://registry.npmjs.org'
+          scope: '@josivaldojnr'
       - run: npm install
       - run: npm config set '//registry.npmjs.org/:_authToken' "${{secrets.NPM_TOKEN}}"
       - run: npm publish --access public
