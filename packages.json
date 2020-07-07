@@ -1,5 +1,5 @@
 {
-	"name": "badges.css",
+	"name": "@josivaldojnr/badges.css",
 	"version": "0.1.0",
 	"description": "A small CSS module for building simple badges.",
 	"homepage": "https://josivaldojnr.github.io/badges.css/",
@@ -13,8 +13,7 @@
 		"module"
 	],
 	"repository": {
-		"type": "git",
-		"url": "https://github.com/josivaldojnr/badges.css.git"
+		"url": "git://github.com/josivaldojnr/badges.css.git"
 	},
 	"bugs": {
 		"url": "https://github.com/josivaldojnr/badges.css/issues",
