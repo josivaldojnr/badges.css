@@ -12,15 +12,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@josivaldojnr'
-      - run: npm install
-      - run: npm config set '//npm.pkg.github.com/:_authToken' "${{secrets.PERSONAL_ACCESS_TOKEN}}"
-      - run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.PERSONAL_ACCESS_TOKEN}}
-      - uses: actions/setup-node@v1
-        with:
           registry-url: 'https://registry.npmjs.org'
           scope: '@josivaldojnr'
       - run: npm install
