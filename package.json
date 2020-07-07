@@ -26,8 +26,5 @@
 		"!.github/",
 		"!docs/"
 	],
-	"license": "MIT",
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
-	}
+	"license": "MIT"
 }
